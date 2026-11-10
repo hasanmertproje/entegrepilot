@@ -1,0 +1,14 @@
+# npm workspaces are managed from the repository root.
+# Keep dependency updates reviewable and run the complete CI suite before merging.
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "deps"
