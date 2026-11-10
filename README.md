@@ -1,12 +1,12 @@
 # EntegrePilot
 
-Modüler e-ticaret operasyonu, yaratıcı üretim ve ürün araştırma platformu.
+EntegrePilot; ürün, stok ve sipariş yönetimini, yapay zekâ destekli tasarım ve ürün araştırma araçlarıyla bir araya getiren bir e-ticaret uygulaması.
 
-## Ürün sınırları
+Uygulamanın dahili operasyon modülleri geliştiriliyor. Pazaryeri senkronizasyonu, faturalandırma ve ödeme alma henüz canlı değil.
 
-Repo, çalışan production çekirdeği ile henüz kullanıcı iş akışı kesinleşmemiş Commerce alanlarını bilinçli olarak ayırır. Preview/Beta modüller production entegrasyonu varmış gibi gösterilmez.
+## Modüller ve mevcut durum
 
-### Production çekirdeği
+### Uygulama çekirdeği
 - İlk kurulum, login/logout ve kalıcı session
 - Workspace izolasyonu, güvenli davetler ve workspace switch
 - Müşteri/workspace kontrol merkezi
